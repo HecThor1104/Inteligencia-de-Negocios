@@ -1,10 +1,12 @@
-
 import streamlit as st
 import pandas as pd
 import altair as alt
 
 # Cargar los datos
 df = pd.read_csv('marketing_data_clean.csv')  # Asegúrate de exportar el DataFrame limpio a un archivo CSV.
+
+# Verificar las columnas
+st.write("Columnas del DataFrame:", df.columns.tolist())
 
 # Configuración de la página
 st.set_page_config(page_title="Dashboard de Marketing", layout="wide")
@@ -42,9 +44,9 @@ st.altair_chart(fuente_chart, use_container_width=True)
 
 st.subheader("Resultados de Modelos Probit y Logit")
 st.text("Modelo Probit:")
-st.text("""{}""".format("""{}"""))
+st.text("""Resultados no disponibles en esta vista.""")
 st.text("Modelo Logit:")
-st.text("""{}""".format("""{}"""))
+st.text("""Resultados no disponibles en esta vista.""")
 
 # Resumen y conclusiones
 st.subheader("Resumen y Conclusiones")
@@ -53,3 +55,4 @@ st.markdown("""
 - **Referencias** tienen un impacto negativo en la conversión.
 - Estas observaciones pueden ayudar a priorizar recursos en canales más efectivos.
 """)
+
