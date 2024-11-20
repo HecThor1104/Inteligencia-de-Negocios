@@ -23,13 +23,13 @@ except Exception as e:
 # Clasificación de etapas
 etapa_map = {
     "Ganado": 1,
-    "Pipe comercial": 1,
-    "Transferido a sales": 1,
+    "SQL En pipe comercial": 1,
+    "Transferido a Sales": 1,
     "Nutrición": 0,
-    "Descartado": 0,
-    "Localizando": 0
+    "Descartado (contacto si interés)": 0,
+    "Negocio perdido": 0
 }
-df['Etapa_binaria'] = df['Etapa_del_negocio'].map(etapa_map)
+df['Etapa_binaria'] = df['Etapa del negocio'].map(etapa_map)
 
 # Validar la variable objetivo
 if df['Etapa_binaria'].isnull().any() or not set(df['Etapa_binaria'].unique()).issubset({0, 1}):
@@ -77,18 +77,18 @@ if fuente_seleccion:
 # Visualizaciones avanzadas
 st.subheader("Distribución por Etapas (Categorizadas)")
 etapas_chart = alt.Chart(df_filtered).mark_bar().encode(
-    x=alt.X("Etapa_del_negocio:N", title="Etapas"),
+    x=alt.X("Etapa del negocio:N", title="Etapas"),
     y=alt.Y("count():Q", title="Cantidad"),
-    color="Etapa_del_negocio:N"
+    color="Etapa del negocio:N"
 ).properties(width=600, height=400)
 st.altair_chart(etapas_chart, use_container_width=True)
 
 st.subheader("Probabilidades de Éxito por Fuente")
-probs_fuentes = logit_model.predict(X).groupby(df['Fuente_original']).mean()
+probs_fuentes = logit_model.predict(X).groupby(df['Fuente original']).mean()
 fuente_chart = alt.Chart(probs_fuentes.reset_index()).mark_bar().encode(
-    x=alt.X("Fuente_original:N", title="Fuente Original"),
+    x=alt.X("Fuente original:N", title="Fuente Original"),
     y=alt.Y("probabilidad:Q", title="Probabilidad de Éxito"),
-    color="Fuente_original:N"
+    color="Fuente original:N"
 ).properties(width=600, height=400)
 st.altair_chart(fuente_chart, use_container_width=True)
 
