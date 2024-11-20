@@ -20,9 +20,6 @@ except Exception as e:
     st.error(f"Error al cargar el archivo: {e}")
     st.stop()
 
-# Depuración: Mostrar las columnas disponibles
-st.write("Columnas disponibles en el DataFrame:", df.columns.tolist())
-
 # Clasificación de etapas
 etapa_map = {
     "Ganado": 1,
@@ -33,13 +30,8 @@ etapa_map = {
     "Negocio perdido": 0
 }
 
-# Verificar existencia de columna necesaria
-if 'Etapa del negocio' not in df.columns:
-    st.error("La columna 'Etapa del negocio' no está presente en el archivo cargado. Por favor, verifica el archivo.")
-    st.stop()
-
-# Crear la columna 'Etapa_binaria'
-df['Etapa_binaria'] = df['Etapa del negocio'].map(etapa_map)
+# Crear la columna 'Etapa_binaria' con el nombre correcto
+df['Etapa_binaria'] = df['Etapa_del_negocio'].map(etapa_map)
 
 # Validar la variable objetivo
 if df['Etapa_binaria'].isnull().any() or not set(df['Etapa_binaria'].unique()).issubset({0, 1}):
@@ -87,18 +79,18 @@ if fuente_seleccion:
 # Visualizaciones avanzadas
 st.subheader("Distribución por Etapas (Categorizadas)")
 etapas_chart = alt.Chart(df_filtered).mark_bar().encode(
-    x=alt.X("Etapa del negocio:N", title="Etapas"),
+    x=alt.X("Etapa_del_negocio:N", title="Etapas"),
     y=alt.Y("count():Q", title="Cantidad"),
-    color="Etapa del negocio:N"
+    color="Etapa_del_negocio:N"
 ).properties(width=600, height=400)
 st.altair_chart(etapas_chart, use_container_width=True)
 
 st.subheader("Probabilidades de Éxito por Fuente")
-probs_fuentes = logit_model.predict(X).groupby(df['Fuente original']).mean()
+probs_fuentes = logit_model.predict(X).groupby(df['Fuente_original_Bsqueda_orgnica']).mean()
 fuente_chart = alt.Chart(probs_fuentes.reset_index()).mark_bar().encode(
-    x=alt.X("Fuente original:N", title="Fuente Original"),
+    x=alt.X("Fuente_original_Bsqueda_orgnica:N", title="Fuente Original"),
     y=alt.Y("probabilidad:Q", title="Probabilidad de Éxito"),
-    color="Fuente original:N"
+    color="Fuente_original_Bsqueda_orgnica:N"
 ).properties(width=600, height=400)
 st.altair_chart(fuente_chart, use_container_width=True)
 
