@@ -42,12 +42,21 @@ if df['Etapa_binaria'].isnull().any() or not set(df['Etapa_binaria'].unique()).i
 st.write("Columnas del DataFrame:", df.columns.tolist())
 
 # Listar columnas relevantes para análisis
-unidad_columns = [col for col in df.columns if col.startswith('Unidad_de_negocio_asignada')]
-fuente_columns = [col for col in df.columns if col.startswith('Fuente_original')]
-
-if not unidad_columns or not fuente_columns:
-    st.error("No se encontraron columnas relacionadas con unidades de negocio o fuentes originales en el archivo.")
-    st.stop()
+unidad_columns = [
+    'Unidad_de_negocio_asignada_Enterprise_Solutions',
+    'Unidad_de_negocio_asignada_Google_Cloud_NO_USAR',
+    'Unidad_de_negocio_asignada_Microsoft__NO_USAR'
+]
+fuente_columns = [
+    'Fuente_original_Bsqueda_orgnica',
+    'Fuente_original_Fuentes_sin_conexin',
+    'Fuente_original_Marketing_por_email',
+    'Fuente_original_Otras_campaas',
+    'Fuente_original_Redes_sociales_de_pago',
+    'Fuente_original_Referencias',
+    'Fuente_original_Trfico_directo',
+    'Fuente_original_Trfico_orgnico_de_redes_sociales'
+]
 
 # Crear el modelo Probit y Logit
 predictors = unidad_columns + fuente_columns
@@ -88,17 +97,20 @@ fuente_etapa_chart = alt.Chart(df_filtered).mark_bar().encode(
 ).properties(width=800, height=400)
 st.altair_chart(fuente_etapa_chart, use_container_width=True)
 
-# Conversión por unidad de negocio
+# Tasa de Conversión por Unidad de Negocio
 st.subheader("Tasa de Conversión por Unidad de Negocio")
-conversion_data = df.groupby(unidad_columns).agg(
-    total_leads=('Etapa_binaria', 'count'),
-    conversion_rate=('Etapa_binaria', 'mean')
-).reset_index()
+
+conversion_data = pd.DataFrame({
+    'Unidad_de_negocio': unidad_columns,
+    'total_leads': [df[col].sum() for col in unidad_columns],
+    'conversion_rate': [df[df[col] == 1]['Etapa_binaria'].mean() for col in unidad_columns]
+})
+
 conversion_chart = alt.Chart(conversion_data).mark_bar().encode(
     x=alt.X('conversion_rate:Q', title="Tasa de Conversión (%)", scale=alt.Scale(domain=[0, 1])),
-    y=alt.Y('Unidad_de_negocio_asignada:N', title="Unidad de Negocio"),
+    y=alt.Y('Unidad_de_negocio:N', title="Unidad de Negocio"),
     color=alt.Color('conversion_rate:Q', scale=alt.Scale(scheme='greenblue')),
-    tooltip=['Unidad_de_negocio_asignada', 'conversion_rate', 'total_leads']
+    tooltip=['Unidad_de_negocio', 'conversion_rate', 'total_leads']
 ).properties(width=800, height=400)
 st.altair_chart(conversion_chart, use_container_width=True)
 
@@ -109,5 +121,6 @@ st.markdown("""
 - **Tasa de conversión**: Analiza qué unidades de negocio están logrando mejores conversiones.
 - **Modelos Probit y Logit**: Proveen análisis detallado de las probabilidades de éxito.
 """)
+
 
 
