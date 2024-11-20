@@ -20,6 +20,9 @@ except Exception as e:
     st.error(f"Error al cargar el archivo: {e}")
     st.stop()
 
+# Depuración: Mostrar las columnas disponibles
+st.write("Columnas disponibles en el DataFrame:", df.columns.tolist())
+
 # Clasificación de etapas
 etapa_map = {
     "Ganado": 1,
@@ -29,6 +32,13 @@ etapa_map = {
     "Descartado (contacto si interés)": 0,
     "Negocio perdido": 0
 }
+
+# Verificar existencia de columna necesaria
+if 'Etapa del negocio' not in df.columns:
+    st.error("La columna 'Etapa del negocio' no está presente en el archivo cargado. Por favor, verifica el archivo.")
+    st.stop()
+
+# Crear la columna 'Etapa_binaria'
 df['Etapa_binaria'] = df['Etapa del negocio'].map(etapa_map)
 
 # Validar la variable objetivo
@@ -99,5 +109,6 @@ st.markdown("""
 - Las fuentes y unidades de negocio influyen significativamente en el éxito.
 - Distribuciones y probabilidades por fuente y unidad disponibles en las visualizaciones.
 """)
+
 
 
