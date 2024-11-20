@@ -1,0 +1,689 @@
+ID,Nombre_del_negocio,Etapa_del_negocio,Etapa_binaria,Unidad_de_negocio_asignada_Enterprise_Solutions,Unidad_de_negocio_asignada_Google_Cloud_NO_USAR,Unidad_de_negocio_asignada_Microsoft__NO_USAR,Fuente_original_Bsqueda_orgnica,Fuente_original_Fuentes_sin_conexin,Fuente_original_Marketing_por_email,Fuente_original_Otras_campaas,Fuente_original_Redes_sociales_de_pago,Fuente_original_Referencias,Fuente_original_Trfico_directo,Fuente_original_Trfico_orgnico_de_redes_sociales
+3,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+5,Chatbot - Fertilizantes Tepeyac,Nutrición,1,0,0,0,0,0,0,0,1,0,0,0
+6,Lead AWS Startups - MKT,Negocio perdido,0,0,0,0,0,0,0,0,0,0,0,0
+8,Lead de Chatbot - Formulario,Nutrición,1,0,0,0,0,0,0,0,1,0,0,0
+12,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+13,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+14,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+15,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+16,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+17,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+18,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,0,1,0,0,0,0,0
+19,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+20,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,0,0,1,0,0,0,0
+21,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+22,Leads Evento Diversidad e Inclusión - MKT,Transferido a Sales,0,0,0,0,0,0,0,1,0,0,0,0
+23,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+24,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+25,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,0,0,1,0,0,0,0
+26,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+27,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+28,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+29,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,0,0,1,0,0,0,0
+30,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+31,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+32,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+33,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+34,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+35,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+36,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+37,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+38,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+39,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+40,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+41,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+42,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+43,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+44,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+45,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+46,Leads Evento Diversidad e Inclusión - MKT,Transferido a Sales,0,0,0,0,0,0,0,1,0,0,0,0
+47,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+48,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+49,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+50,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+51,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+52,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+53,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+54,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+55,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+56,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,0,1,0,0,0,0,0
+57,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+58,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+59,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+60,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+61,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+62,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+63,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+64,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+65,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+66,Leads Evento Diversidad e Inclusión - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+68,Lead de Chatbot - Orgánico,Negocio perdido,0,1,0,0,1,0,0,0,0,0,0,0
+69,Lead de Formulario - Sitio Web,Nutrición,1,0,0,0,1,0,0,0,0,0,0,0
+72,WOW INNOVATION - Workspace - Marcos / Edson,Nutrición,1,1,0,0,0,1,0,0,0,0,0,0
+73,Migracion - Ecommerce Cengage,Nutrición,1,0,0,0,1,0,0,0,0,0,0,0
+74,Lead de Workspace - MKT,Nutrición,1,1,0,0,1,0,0,0,0,0,0,0
+76,Lead referido MSFT,Ganado,0,0,0,0,0,0,0,0,0,1,0,0
+77,Lead referido MSFT,Ganado,0,0,0,0,0,0,0,0,0,1,0,0
+82,Lead de Shopify - MKT,SQL En pipe comercial,0,0,0,0,1,0,0,0,0,0,0,0
+85,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+86,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+88,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+89,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+90,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+91,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+92,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+93,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+95,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+97,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+100,Lead de Shopify - MKT,Nutrición,1,1,0,0,0,0,0,0,0,1,0,0
+101,Referido de MSFT - MKT,Negocio perdido,0,1,0,0,0,0,0,1,0,0,0,0
+102,Referido de MSFT - MKT,Negocio perdido,0,1,0,0,0,0,0,0,0,1,0,0
+103,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+104,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+106,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+107,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+109,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+110,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+111,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+112,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+113,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+114,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+116,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+118,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+119,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+122,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+125,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+126,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+127,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+131,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+132,Lead de Chatbot - Formulario,Descartado (contacto si interés),0,1,0,0,0,0,0,0,1,0,0,0
+133,Lead de AWS - MKT,Ganado,0,0,0,0,0,1,0,0,0,0,0,0
+136,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+137,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+140,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+142,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+144,Lead de AWS - Formulario,Negocio perdido,0,0,1,0,0,0,0,0,0,0,0,0
+146,Lead de Workspace - Orgánico,SQL En pipe comercial,0,0,1,0,0,0,0,0,0,0,1,0
+147,Lead de Evento BlueBox & WorkShop AWS_CDMX,Nutrición,1,0,0,0,1,0,0,0,0,0,0,0
+148,Lead de Evento BlueBox & WorkShop AWS_CDMX,Nutrición,1,0,0,0,1,0,0,0,0,0,0,0
+149,Lead de Evento BlueBox & WorkShop AWS_CDMX,Nutrición,1,0,0,0,1,0,0,0,0,0,0,0
+150,Lead de Evento BlueBox & WorkShop AWS_CDMX,Nutrición,1,0,0,0,1,0,0,0,0,0,0,0
+151,Lead de Evento BlueBox & WorkShop AWS_CDMX,Nutrición,1,0,0,0,1,0,0,0,0,0,0,0
+152,Lead de Evento BlueBox & WorkShop AWS_CDMX,Nutrición,1,0,0,0,1,0,0,0,0,0,0,0
+153,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+154,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+155,Lead de Chatbot + iNBest,Descartado (contacto si interés),0,1,0,0,0,0,0,0,1,0,0,0
+156,Lead de Google - TeleMKT,Ganado,0,0,1,0,0,0,0,0,0,0,0,0
+157,Lead de Chatbot - Formulario,Descartado (contacto si interés),0,1,0,0,0,0,0,0,1,0,0,0
+158,Lead de AWS - Nuevo Laredo,SQL En pipe comercial,0,0,0,0,1,0,0,0,0,0,0,0
+159,Lead de SAP - Orgánico,Negocio perdido,0,1,0,0,0,0,0,0,0,0,1,0
+160,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+161,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+162,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+163,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+165,Lead de Chatbot - LinkedIn,Nutrición,1,1,0,0,0,0,0,0,0,0,0,0
+167,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+169,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+170,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+171,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+172,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+173,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+174,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+175,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+176,Lead de Chatbot - Formulario,Descartado (contacto si interés),0,1,0,0,0,0,0,0,1,0,0,0
+179,Lead de Workspace - MKT,Nutrición,1,0,1,0,1,0,0,0,0,0,0,0
+180,Lead de AWS - MKT,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+181,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+182,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+183,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+184,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+186,Lead Referido - MSFT,Nutrición,1,0,0,1,0,0,0,0,0,1,0,0
+187,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+188,Licencia SAP - El Cerezo - CX,Nutrición,1,1,0,0,0,1,0,0,0,0,0,0
+190,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+191,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+192,Lead de Chatbot - Formulario,Descartado (contacto si interés),0,1,0,0,0,0,0,0,1,0,0,0
+193,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+194,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+195,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+196,Lead de MSFT - Orgánico,Negocio perdido,0,0,0,1,0,0,0,0,1,0,0,0
+197,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+198,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+199,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+201,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+202,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+203,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+204,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+206,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+207,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+209,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+211,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+212,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+213,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+214,Lead de Chatbot - Formulario,Descartado (contacto si interés),0,1,0,0,0,0,0,0,1,0,0,0
+215,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+217,Lead de Chatbot - Formulario,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+218,Lead de MSFT 365 - MKT,Negocio perdido,0,0,0,1,0,0,0,0,0,0,1,0
+220,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+221,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+223,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+224,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+225,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+226,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,0,0,0,0
+227,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+228,Lead de AWS - MKT,Transferido a Sales,0,0,0,0,1,0,0,0,0,0,0,0
+229,Lead de SAP - Campaña Buen Fin,Ganado,0,1,0,0,0,1,0,0,0,0,0,0
+230,Lead de Chatbot,Negocio perdido,0,1,0,0,0,0,0,0,0,0,1,0
+231,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+233,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+234,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+235,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+236,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+241,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+242,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+243,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+266,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+267,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+268,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,0,0,0,0
+269,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+270,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,0,0,0,0
+271,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+272,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+275,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+276,Lead del Chat - Sitio Web,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+277,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+278,Lead de Chatbot - MKT,Nutrición,1,1,0,0,0,0,0,0,0,0,1,0
+279,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+280,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+282,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+283,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+284,Retomar Contacto - MKT,Nutrición,1,0,0,0,0,0,0,1,0,0,0,0
+285,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+286,Lead de MSFT 365 - MKT,Nutrición,1,0,0,0,0,0,0,0,0,1,0,0
+287,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+288,Voztele - Workspace - Javier,Nutrición,1,1,0,0,0,0,0,0,0,1,0,0
+289,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+290,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+291,Lead de Google - TeleMKT,Nutrición,1,0,1,0,0,0,0,0,0,0,0,0
+292,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+293,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+294,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+295,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+296,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+297,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+299,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+300,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+301,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+303,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+304,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+305,Lead de MSFT 365 - MKT,Negocio perdido,0,0,0,1,0,0,0,0,0,0,1,0
+306,Lead de AWS - MKT,Nutrición,1,0,1,0,0,0,0,0,0,0,0,0
+307,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+308,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+309,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+310,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+311,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+312,Lead de Chatbot - Formulario,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+314,Lead de Chatbot - Pauta FB,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+319,Lead de Chatbot - TeleMkt,Descartado (contacto si interés),0,1,0,0,0,0,0,0,1,0,0,0
+322,Lead de Jelastic - MKT,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+323,Lead de MSFT - Orgánico,Negocio perdido,0,0,0,1,1,0,0,0,0,0,0,0
+324,Lead de AWS - Google ADS,Ganado,0,0,1,0,0,0,0,0,0,0,0,0
+325,Lead de Ecosistema Digital,Negocio perdido,0,1,0,0,0,0,0,0,0,0,0,0
+326,Lead de Chatbot - MKT,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+327,Difrenosa Azure,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+328,Lead de Cloud Talks - MKT,Nutrición,1,0,0,0,0,0,0,1,0,0,0,0
+336,Lead de AWS - MKT,Nutrición,1,0,1,0,0,0,0,0,0,0,0,0
+337,Lead de AWS - Cloud Talks,SQL En pipe comercial,0,0,0,0,0,0,0,1,0,0,0,0
+338,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+339,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+340,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+341,Lead de AWS,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+342,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+343,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+344,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+345,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+346,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+347,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+348,Lead de AWS - MKT,Nutrición,1,0,1,0,0,0,0,0,0,0,0,0
+349,Lead de Jelastic - MKT,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+350,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+351,Lead de AWS - MKT,Nutrición,1,0,1,0,0,0,0,0,0,0,0,0
+352,Lead de Jelastic - MKT,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+353,Lead de Chat - MKT,Nutrición,1,0,0,0,1,0,0,0,0,0,0,0
+354,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+355,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+356,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+357,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+358,Leads referidos por AWS - MKT,Ganado,0,0,0,0,0,0,0,0,0,1,0,0
+359,Lead de AWS - Orgánico,SQL En pipe comercial,0,0,0,0,1,0,0,0,0,0,0,0
+360,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+361,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+362,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+363,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+364,Lead de Cloud Talks - MKT,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+365,Lead de Servnet - TeleMKT,Negocio perdido,0,0,0,0,1,0,0,0,0,0,0,0
+366,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+367,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+368,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+369,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+370,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+371,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+372,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+373,Lead de AWS - MKT,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+374,Lead de AWS - MKT,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+375,Lead de MSFT - MKT,Nutrición,1,0,0,1,0,0,0,0,0,1,0,0
+376,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+377,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+378,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+379,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+380,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+381,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+382,Lead de MSFT - MKT,Nutrición,1,0,0,1,0,0,0,0,0,0,1,0
+383,Lead de AWS - MKT,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+384,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+385,Lead de Chatbot - MKT,Nutrición,1,1,0,0,1,0,0,0,0,0,0,0
+386,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+387,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+388,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+389,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+390,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+391,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+392,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+393,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+394,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+395,Lead de Ecosistema Digital - MKT,Nutrición,1,1,0,0,0,0,0,0,0,0,0,0
+396,Lead de AWS - MKT,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+397,Lead de Workspace - MKT,Nutrición,1,0,1,0,0,0,0,0,0,0,1,0
+398,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+399,Lead de Google - TeleMKT,Descartado (contacto si interés),0,0,1,0,0,0,0,0,0,0,0,0
+400,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+401,Lead de Chatbot - TeleMkt,Ganado,0,1,0,0,0,0,0,0,1,0,0,0
+402,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+403,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+404,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+405,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+406,Lead de Office 365 -MKT,Nutrición,1,0,0,1,0,1,0,0,0,0,0,0
+407,Lead de Workspaces - MKT,Nutrición,1,0,1,0,0,0,0,0,0,1,0,0
+408,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+409,Cloud Talks QRO - MKT,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+410,Cloud Talks QRO - MKT,Descartado (contacto si interés),0,0,1,0,0,0,0,1,0,0,0,0
+411,Cloud Talks QRO - MKT,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+412,Cloud Talks QRO - MKT,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+413,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+414,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+415,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+416,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+417,Lead de Chatbot - TeleMkt,Descartado (contacto si interés),0,1,0,0,0,0,0,0,1,0,0,0
+418,Lead de Sitio Web,Descartado (contacto si interés),0,1,0,0,0,0,0,0,0,0,0,0
+419,Lead de Enterprise - MKT,Nutrición,1,1,0,0,0,0,0,0,0,0,1,0
+420,Lead de Hybrid Cloud - MKT,Nutrición,1,0,0,0,1,0,0,0,0,0,0,0
+421,Lead de Chatbot - MKT,Nutrición,1,1,0,0,1,0,0,0,0,0,0,0
+422,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+423,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+424,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+425,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+426,Lead de AWS - MKT,Negocio perdido,0,0,0,0,1,0,0,0,0,0,0,0
+427,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+428,Lead de AWS - Chat Sitio Web,SQL En pipe comercial,0,0,0,0,0,0,0,0,0,0,0,0
+429,Proceso Seguro - Migración aplicativo a GCP,Nutrición,1,0,1,0,0,1,0,0,0,0,0,0
+430,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+431,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+432,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+433,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+434,Lead de Ecosistema Digital,Nutrición,1,1,0,0,0,0,0,0,0,0,0,0
+435,Lead de AWS,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+436,Lead de Workspace - TeleMKT,Nutrición,1,0,1,0,0,0,0,0,0,0,1,0
+437,Lead de Cloud Talks - MKT,Nutrición,1,0,0,0,0,0,0,1,0,0,0,0
+438,Lead de Cloud Talks - MKT,Negocio perdido,0,0,0,0,0,1,0,0,0,0,0,0
+439,Lead de Cloud Talks - MKT,Nutrición,1,0,0,0,0,0,0,1,0,0,0,0
+440,Municipio de Workspace - Google ADS,SQL En pipe comercial,0,0,1,0,0,0,0,0,0,0,0,0
+441,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+443,Expertia - Capacitación Aluprint,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+444,Lead de AWS - TeleMkt,Descartado (contacto si interés),0,0,1,0,0,0,0,0,0,0,0,0
+445,Leads referidos por AWS - MKT,Ganado,0,0,0,0,0,0,0,0,0,1,0,0
+446,Leads referidos por AWS - MKT,Nutrición,1,0,0,0,0,0,0,0,0,1,0,0
+447,Leads referidos por AWS - MKT,Ganado,0,0,0,0,0,0,0,0,0,1,0,0
+448,Leads referidos por AWS - MKT,Ganado,0,0,0,0,0,0,0,0,0,1,0,0
+449,Leads referidos por AWS - MKT,Nutrición,1,0,0,0,0,0,0,0,0,1,0,0
+450,Leads referidos por AWS - MKT,Nutrición,1,0,0,0,0,0,0,0,0,1,0,0
+451,Leads referidos por AWS - MKT,Nutrición,1,0,0,0,0,0,0,0,0,1,0,0
+452,Leads referidos por AWS - MKT,Nutrición,1,0,0,0,0,0,0,0,0,1,0,0
+453,Leads referidos por AWS - MKT,Ganado,0,0,0,0,0,0,0,0,0,1,0,0
+454,Leads referidos por AWS - MKT,Nutrición,1,0,0,0,0,0,0,0,0,1,0,0
+455,Leads referidos por AWS - MKT,Ganado,0,0,0,0,0,0,0,0,0,1,0,0
+456,Leads referidos por AWS - MKT,Negocio perdido,0,0,0,0,0,0,0,0,0,1,0,0
+457,Lead de Cloud - MKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+458,Lead de Enterprise - MKT,Nutrición,1,1,0,0,0,0,0,0,0,0,0,0
+459,Lead de SF - MKT,Nutrición,1,1,0,0,0,0,0,0,0,0,0,0
+460,Lead de ERP - MKT,Nutrición,1,1,0,0,1,0,0,0,0,0,0,0
+461,Lead de Cloud - MKT,Nutrición,1,0,0,0,0,0,0,0,0,0,1,0
+462,Lead de AWS - TeleMKT,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+464,Lead de AWS - TeleMKT,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+465,Lead de Cloud - TeleMKT,Nutrición,1,0,0,0,1,0,0,0,0,0,0,0
+467,Lead de MSFT - TeleMKT 21/0923,Nutrición,1,0,0,1,0,0,0,0,0,0,1,0
+469,Lead de Workspace - TeleMKT,Nutrición,1,0,1,0,0,0,0,0,0,0,1,0
+470,Lead de Enterprise - TeleMKT,Negocio perdido,0,1,0,0,0,0,0,0,0,0,1,0
+472,Lead chatbot notificaciones,Negocio perdido,0,1,0,0,0,0,0,0,0,1,0,0
+473,Lead Inteligencia Artificial CDMX,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+475,Lead de AWS - Chat Sitio Web,SQL En pipe comercial,0,0,0,0,1,0,0,0,0,0,0,0
+476,Mined - Mantenimiento SAP 2024,Nutrición,1,1,0,0,0,0,0,0,0,1,0,0
+478,Lead de AWS - TeleMkt,Nutrición,1,0,1,0,0,0,0,0,0,0,0,0
+479,Lead de AWS - TeleMKT,Nutrición,1,0,0,0,0,0,0,1,0,0,0,0
+480,Lead de Enterprise - TeleMKT,Ganado,0,1,0,0,0,1,0,0,0,0,0,0
+487,Lead de Applied AI - TeleMKT,Nutrición,1,0,0,1,0,0,0,0,0,0,0,0
+492,Lead Direct conect AWS,SQL En pipe comercial,0,1,0,0,0,0,0,0,0,1,0,0
+493,Lead de MSFT - TeleMKT,Nutrición,1,0,0,1,1,0,0,0,0,0,0,0
+494,Lead Página web,Negocio perdido,0,1,0,0,1,0,0,0,0,0,0,0
+498,Lead de Enterprise - TeleMKT,Negocio perdido,0,1,0,0,0,0,0,0,0,0,0,0
+501,Samuel Almeralla - Lead Webinar,Nutrición,1,0,0,1,0,0,1,0,0,0,0,0
+502,Lead ERP chat página web,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+505,Lead de Google - TeleMKT,Nutrición,1,0,1,0,0,0,0,0,0,0,0,0
+506,Nesly Mendoza - Villa hidalgo,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+507,Lead de AWS - TeleMKT,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+508,Lead de AWS - TeleMKT,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+509,Lead Evento IA aplicada,Negocio perdido,0,0,0,1,0,0,0,0,0,0,0,0
+510,Lead del AWS - TeleMKT,Negocio perdido,0,0,0,0,0,0,0,0,0,1,0,0
+514,Lead de AWS - TeleMkt,Nutrición,1,0,1,0,0,0,0,0,0,0,0,0
+516,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+517,Lead de Chabot - TeleMKT,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+520,Lead Google Workspace,Ganado,0,0,1,0,0,0,0,0,0,0,0,0
+521,SOC - Campaña de LinkedIn de ERP,Nutrición,1,1,0,0,0,0,0,0,0,0,0,0
+529,Juan Carlos Fuentes - Enlazadot,Nutrición,1,0,0,1,0,0,0,1,0,0,0,0
+530,Lead de Google - TeleMKT,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+531,Lead de Google - TeleMKT,Nutrición,1,0,1,0,0,0,0,0,1,0,0,0
+532,Lead campaña Linkedin,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+538,Lead de AWS - TeleMkt,Nutrición,1,0,1,0,0,0,0,0,0,0,0,0
+539,Lead de AWS - TeleMKT,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+540,Antenas Profesionales -Cdmx,Nutrición,1,0,1,0,0,0,0,0,0,1,0,0
+545,Lead Inteligencia artificial CDMX,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+546,Eduardo Mungia - Expo IM,Nutrición,1,0,0,1,0,0,1,0,0,0,0,0
+547,Lead Campaña ERP Linkedin,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+549,Lead Prospección Mexico,Nutrición,1,0,1,0,0,1,0,0,0,0,0,0
+550,Lead de Google - TeleMKT,Nutrición,1,0,1,0,0,0,0,0,0,0,0,0
+551,Lead de Google - TeleMKT,Nutrición,1,0,1,0,0,0,0,0,0,0,0,0
+552,Lead de Google - TeleMKT,Nutrición,1,0,1,0,0,0,0,0,0,0,0,0
+553,Lead de Google - TeleMKT,Nutrición,1,0,1,0,0,0,0,0,0,0,0,0
+554,Lead de Google - TeleMKT,Nutrición,1,0,1,0,0,0,0,0,0,0,0,0
+555,Lead de Google - TeleMKT,Nutrición,1,0,1,0,0,0,0,0,0,0,0,0
+558,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+560,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+563,Lead de AWS -TeleMKT,Negocio perdido,0,0,0,0,0,0,0,0,0,0,0,0
+564,Miguel Perez - Lead chat,Nutrición,1,0,0,1,0,1,0,0,0,0,0,0
+565,Josep Perez - expo IM,Nutrición,1,0,0,1,0,0,0,1,0,0,0,0
+568,Yamile Flores - Expo IM,Nutrición,1,0,1,0,1,0,0,0,0,0,0,0
+569,María del Carmen - Expo IM,Nutrición,1,0,1,0,0,0,1,0,0,0,0,0
+570,Licenciamiento Repstronic,Nutrición,1,0,0,1,0,1,0,0,0,0,0,0
+571,Lead Google,Negocio perdido,0,0,1,0,0,0,0,0,0,0,1,0
+576,Lead Expo mi PYMES,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+582,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+586,Fontanaclothing - Webinar IA,Nutrición,1,0,0,1,0,0,1,0,0,0,0,0
+589,REPSTRONICS - Póliza|,Nutrición,1,0,0,1,0,1,0,0,0,0,0,0
+590,REPSTRONICS - Servicio profesional,Nutrición,1,0,0,1,0,1,0,0,0,0,0,0
+591,REPSTRONICS - consumo AZURE,Nutrición,1,0,0,1,0,1,0,0,0,0,0,0
+593,Lead Mis Pymes,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+594,Lead Expo MYPYMES,Nutrición,1,0,0,1,0,0,0,1,0,0,0,0
+595,3D Market - expo plasticos,Nutrición,1,0,0,1,0,0,0,1,0,0,0,0
+596,Lead de ERP - TeleMKT,Nutrición,1,1,0,0,0,0,0,0,0,0,0,0
+597,Lead de ERP - TeleMKT,Nutrición,1,1,0,0,0,0,0,0,0,0,0,0
+598,corporativoandalucia.com - Expo IM,Negocio perdido,0,0,0,0,0,0,1,0,0,0,0,0
+600,Lead Campaña linkedin,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+605,Lead de Azure - TeleMKT,Nutrición,1,0,0,1,0,0,0,0,0,0,1,0
+606,World Business and Training - Expo MYPyME,Nutrición,1,0,0,1,0,1,0,0,0,0,0,0
+610,Omntro - Expo Mypyme,SQL En pipe comercial,0,0,0,0,0,0,1,0,0,0,0,0
+611,Iván Rodriguez - LEAD WEBINAR,Nutrición,1,0,0,1,0,0,1,0,0,0,0,0
+615,Lead Webinar Inteligencia artificial,Nutrición,1,0,1,0,0,0,0,0,0,0,1,0
+616,Lead Expo Mipymes,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+617,Factor Exprés SAPI de CV SOFOM ENR - Expo MYPyME,Nutrición,1,0,0,1,0,0,0,0,0,0,1,0
+619,Lead Campaña Linekdin,Negocio perdido,0,1,0,0,0,0,0,1,0,0,0,0
+621,Lead de AWS - TeleMKT,Negocio perdido,0,0,0,0,0,0,0,0,0,0,0,0
+622,Lead de AWS - Orgánico,SQL En pipe comercial,0,0,0,0,1,0,0,0,0,0,0,0
+669,Lead Mis PYMES,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+670,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+672,New World Fuel - chatbot,Nutrición,1,1,0,0,0,0,0,0,0,0,1,0
+674,Lead de AWS - TeleMKT,Negocio perdido,0,0,0,0,0,0,0,1,0,0,0,0
+675,Táabal - Expo MYPYME,Nutrición,1,0,1,0,0,0,1,0,0,0,0,0
+676,GRUPO CYSE - Expo MYPyME,Nutrición,1,0,0,1,0,0,0,1,0,0,0,0
+677,Lead de AWS - TeleMKT,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+678,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+685,Lead de ERP - TeleMKT,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+686,Lead Expo Mis PYMES,Nutrición,1,0,0,1,0,0,0,1,0,0,0,0
+687,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+694,Lead de AWS - Google ADS,SQL En pipe comercial,0,0,0,0,0,0,0,0,0,0,0,0
+696,Octavio Perez - Campaña ERPs,Nutrición,1,1,0,0,0,0,1,0,0,0,0,0
+697,Lead Expo Encuentro mi PYMES,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+701,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+705,Lead Campaña ERP Linkedin,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+706,Agrícola Automotríz del Centro - Expo Agro,Nutrición,1,0,1,0,0,0,1,0,0,0,0,0
+710,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+711,Lead Expo MIPyME - TeleMKT,Negocio perdido,0,1,0,0,0,0,0,0,0,0,0,0
+712,Juventino Ortiz - Expo MYPYME,Nutrición,1,0,0,1,0,0,0,0,1,0,0,0
+713,Grupo Innova - Expo MYPYMES,Nutrición,1,0,0,1,0,0,0,0,1,0,0,0
+714,Lead encuentro mi PYMES,Nutrición,1,0,0,1,0,0,0,1,0,0,0,0
+715,Lead de ERP - TeleMKT,Negocio perdido,0,1,0,0,1,0,0,0,0,0,0,0
+716,Lead de ERP - TeleMKT,Negocio perdido,0,1,0,0,0,0,0,0,0,0,1,0
+717,Hul Padilla Gomez - Expo MYPYME,Nutrición,1,0,0,1,0,0,0,0,0,0,1,0
+718,indrall.com - Expo  MYPYME,Nutrición,1,0,0,1,0,0,0,1,0,0,0,0
+719,HEGAMEX - Expo Agro,Nutrición,1,0,0,1,0,0,1,0,0,0,0,0
+720,Lead de AWS - TeleMKT,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+721,Elekta -lead pagina,Nutrición,1,0,0,0,1,0,0,0,0,0,0,0
+725,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+727,Lead de AWS - TeleMKT,Nutrición,1,0,0,0,1,0,0,0,0,0,0,0
+728,Lead Campaña Linkedin,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+729,Himoinsa México - EXPO agro,Nutrición,1,0,1,0,0,0,1,0,0,0,0,0
+736,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+738,tasmexico.com - Expo agro,Nutrición,1,0,0,0,0,0,1,0,0,0,0,0
+743,Lead Chat de iNBest,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+744,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+745,Lead de ERP - TeleMKT,Nutrición,1,1,0,0,0,0,1,0,0,0,0,0
+746,Lead de ERP - TeleMKT,Negocio perdido,0,1,0,0,0,0,1,0,0,0,0,0
+747,Fuck Up Night - EasyLex,Ganado,0,0,0,0,0,0,0,1,0,0,0,0
+749,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+751,TRACTOANDES Expo agro,Nutrición,1,0,1,0,0,1,0,0,0,0,0,0
+758,Lead de Google - TeleMKT,Negocio perdido,0,0,1,0,1,0,0,0,0,0,0,0
+759,Lead de MSFT - TeleMKT,Negocio perdido,0,0,0,1,0,0,0,0,0,0,1,0
+761,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+763,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+764,Lead Base de datos expo constructo,Negocio perdido,0,0,1,0,0,0,0,1,0,0,0,0
+774,Lead Google,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+780,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+781,Algas Pacific - Expo agrotech,Nutrición,1,0,1,0,1,0,0,0,0,0,0,0
+782,Ferman -Expo Agrotech,Nutrición,1,0,0,1,1,0,0,0,0,0,0,0
+784,Lead de Google - TeleMKT,Nutrición,1,0,1,0,0,0,0,0,0,0,1,0
+785,Biotecmx - Expo Agro,Nutrición,1,1,0,0,1,0,0,0,0,0,0,0
+786,Lead Chat Hubspot,Nutrición,1,0,0,1,1,0,0,0,0,0,0,0
+790,Alejandro Martínez González - Expo Agrotech,Nutrición,1,0,1,0,1,0,0,0,0,0,0,0
+794,Lead de MSFT - TeleMKT,Nutrición,1,0,0,1,0,0,0,0,0,1,0,0
+796,Lead de Nuevo Laredo,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+797,Lead de Nuevo Laredo,Negocio perdido,0,0,1,0,0,0,0,1,0,0,0,0
+798,Lead de Nuevo Laredo,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+799,Lead de Nuevo Laredo,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+800,Lead de Nuevo Laredo,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+801,Boris Traschikoff - Expo Agrotech,Nutrición,1,0,0,1,0,0,0,1,0,0,0,0
+802,ablgroup.com.mx -Expo agrotech,Nutrición,1,0,0,1,0,0,0,1,0,0,0,0
+803,Sanchezhass - Expo Agrotech,Transferido a Sales,0,0,0,1,0,0,0,1,0,0,0,0
+804,Rancho Nexo - Expo Agrotech,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+805,Lead evento Nuevo Laredo,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+806,Lead evento Nuevo Laredo,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+807,Lead evento Agrotech,Nutrición,1,0,1,0,1,0,0,0,0,0,0,0
+808,Lead Expo agrotech,SQL En pipe comercial,0,0,0,1,0,0,0,1,0,0,0,0
+809,Lead expo Agrotech,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+810,Johnnyrios -Expo MTY,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+815,Jose Antonio Guillen Rdz - Expo mty,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+816,Maricruz Hernandez - Expo mty,Nutrición,1,1,0,0,0,1,0,0,0,0,0,0
+818,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+827,Adrian Vergara - Expo MTY,Nutrición,1,1,0,0,0,0,0,0,0,0,1,0
+828,Lead Expo Proveedores de restaurantes,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+836,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+838,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+842,Lead de Azure - TeleMKT,Ganado,0,0,0,1,1,0,0,0,0,0,0,0
+843,Lead de MSFT - TeleMKT,Negocio perdido,0,0,0,1,0,0,0,0,0,1,0,0
+844,Pmxgroup - Replica Base Datos,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+845,Lead de MSFT - TeleMKT,Negocio perdido,0,0,0,1,0,0,0,0,0,0,1,0
+847,Dave Ricardo Lavadores Jimenez - sedeco,Nutrición,1,1,0,0,0,0,0,0,0,0,0,0
+848,Lead Expo restaurante,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+849,Lead Expo restaurante,Negocio perdido,0,1,0,0,0,0,0,1,0,0,0,0
+850,Daniel - Expo mty,Nutrición,1,1,0,0,0,1,0,0,0,0,0,0
+851,Lead Expo restaurante,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+852,Lead Expo restaurante,Descartado (contacto si interés),0,1,0,0,0,0,0,1,0,0,0,0
+853,Lead Expo Restaurantes,Negocio perdido,0,1,0,0,0,0,0,1,0,0,0,0
+854,Lead Expo Restaurante,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+855,Lead Expo restaurantes,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+857,Lead Microsoft,Nutrición,1,0,0,1,0,0,0,1,0,0,0,0
+859,Lead Expo Agrotech,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+860,notienecorre.com - villa hidalgo,Descartado (contacto si interés),0,1,0,0,0,0,0,1,0,0,0,0
+861,Alex Padilla - Lead Chatbot,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+867,Atrela - Expo mty,Nutrición,1,1,0,0,0,1,0,0,0,0,0,0
+868,Luis Zuñiga - Expo MTY,Nutrición,1,1,0,0,0,1,0,0,0,0,0,0
+869,Lead Expo provedores de restaurantes,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+870,Jannett Ayup - Expo Mty,Nutrición,1,1,0,0,0,0,0,0,0,0,1,0
+872,Lead Expo proveedores del restaurante,Negocio perdido,0,1,0,0,0,0,0,1,0,0,0,0
+874,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+876,Rodolfo Santoyo - Expo MTY,Nutrición,1,1,0,0,0,1,0,0,0,0,0,0
+877,filsem.com - Expo MTY,Nutrición,1,1,0,0,0,0,0,0,0,0,1,0
+879,Lead de Azure - TeleMKT,Ganado,0,0,0,1,0,0,0,0,0,0,1,0
+883,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+885,Lead Apoyo de Sedeco,Nutrición,1,1,0,0,0,0,0,0,0,0,0,0
+890,Lead de MSFT - TeleMKT,Ganado,0,0,0,1,0,0,0,0,0,1,0,0
+891,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+893,Lead de Chatbot - TeleMkt,Nutrición,1,0,0,0,0,0,0,0,1,0,0,0
+895,Lead de Agrotech - TeleMKT,Negocio perdido,0,1,0,0,0,0,0,1,0,0,0,0
+896,Lead de Expo Proveedores de Restaurantes - TeleMKT,Negocio perdido,0,1,0,0,0,0,0,0,0,0,0,0
+897,Lead evento Agrotech,Negocio perdido,0,0,1,0,0,0,0,1,0,0,0,0
+898,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+903,Lead evento villa hidalgo,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+904,Raul García Rendon - Expo Agro Tech,Nutrición,1,1,0,0,0,0,0,0,0,0,1,0
+905,Eduardo Sánchez - Expo Agrtech,Nutrición,1,1,0,0,0,0,0,0,0,0,1,0
+906,Lead de Chatbot - TeleMkt,Descartado (contacto si interés),0,1,0,0,0,0,0,0,1,0,0,0
+908,Novagric - Expo Agrotech,Nutrición,1,1,0,0,0,0,0,0,0,1,0,0
+909,Leads evento Agrotech,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+910,Daniel Cardenas - Agrotech,Nutrición,1,0,0,0,0,0,0,0,0,1,0,0
+919,Barrilero - expo cerveza ecommerce,Nutrición,1,1,0,0,1,0,0,0,0,0,0,0
+920,ahuijullobeer.com -Expo Ecomm,Nutrición,1,1,0,0,1,0,0,0,0,0,0,0
+921,Colectivo Atl-Xolotl SA de CV - Expo Cerveza nube,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+923,Paradise club travel - SEDECO,Nutrición,1,1,0,0,0,0,0,0,0,0,0,0
+924,Monica Esmeralda Palafox Garcés - Expo cerveza pagina,Nutrición,1,0,0,0,1,0,0,0,0,0,0,0
+925,Cerveza Colombo -Expo cerveza nube,Nutrición,1,1,0,0,1,0,0,0,0,0,0,0
+926,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+927,Lead de MSFT - TeleMkt,Ganado,0,0,0,1,0,0,0,0,0,0,0,0
+930,Jose Orozco - SEDECO,Nutrición,1,1,0,0,0,0,0,0,0,0,0,0
+931,Lead del sitio web - TeleMkt,Negocio perdido,0,1,0,0,1,0,0,0,0,0,0,0
+932,Lead Evento Villa Hidalgo,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+933,Lead de Villa Hidalgo - TeleMKT,Negocio perdido,0,1,0,0,0,0,0,1,0,0,0,0
+934,Lead Evento Villa Hidalgo,Nutrición,1,1,0,0,0,0,1,0,0,0,0,0
+935,Lead de Villa Hidalgo - TeleMKT,Negocio perdido,0,1,0,0,0,0,0,1,0,0,0,0
+936,The Climate Box - Expo Agrotech,Nutrición,1,0,1,0,0,1,0,0,0,0,0,0
+937,Lead evento Agrotech,Negocio perdido,0,1,0,0,0,0,0,1,0,0,0,0
+939,Lead Evento Villa Hidalgo,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+940,Lead de Odoo - TeleMKT,Descartado (contacto si interés),0,1,0,0,0,0,0,0,0,1,0,0
+941,Lead de Odoo - TeleMKT,Descartado (contacto si interés),0,1,0,0,0,0,0,0,0,1,0,0
+942,Luis David De La Rosa - Villa Hidalgo,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+943,Lead Evento Villa Hidalgo,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+944,Teresa Ponce - Villa Hidalgo,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+945,Maricela Lopez - Villa Hidalgo,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+946,Omar Martín Delgado -Villa Hidalgo,Nutrición,1,1,0,0,1,0,0,0,0,0,0,0
+947,Lead de Villa Hidalgo - TeleMKT,Negocio perdido,0,1,0,0,0,0,0,1,0,0,0,0
+948,Lead Evento Villa Hidalgo,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+949,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+951,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+952,Itzel Viveros - Chat hubspot,Nutrición,1,1,0,0,0,0,0,0,0,0,1,0
+954,Grupo Out Helping - Base queretaro,Nutrición,1,0,1,0,1,0,0,0,0,0,0,0
+956,TALENT for TALENT - Base Querétaro,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+957,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+960,Lead de Azure - TeleMkt,Negocio perdido,0,0,0,1,0,0,0,0,0,0,0,0
+961,COXALA - Expo cerveza,Nutrición,1,0,1,0,0,0,0,0,0,0,1,0
+962,"Constructora Chufani, S.A. de C.V. -Base Queretaro",Nutrición,1,0,1,0,0,0,0,0,0,1,0,0
+966,Cluster Automotriz de Querétaro - Queretaro,Descartado (contacto si interés),0,0,1,0,0,0,0,1,0,0,0,0
+968,Koppert Mexico - Queretaro,Nutrición,1,0,1,0,0,0,0,0,0,1,0,0
+970,Predictiva21 - Base Queretaro,Nutrición,1,0,1,0,1,0,0,0,0,0,0,0
+973,CHOCOLATES PROCALI - Base queretaro,Nutrición,1,0,1,0,1,0,0,0,0,0,0,0
+976,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+981,Cervecería Primus - Base Queretaro,Nutrición,1,0,1,0,1,0,0,0,0,0,0,0
+983,José Luis Resendiz - Queretaro,Nutrición,1,0,1,0,0,1,0,0,0,0,0,0
+986,healtybrand.mx – Base qro,Nutrición,1,0,0,0,0,0,0,1,0,0,0,0
+987,apal.com.mx - Nuevo negocio,Nutrición,1,1,0,0,1,0,0,0,0,0,0,0
+988,Lead de Odoo,Descartado (contacto si interés),0,1,0,0,0,0,0,0,0,1,0,0
+989,Lead de Chatbots - TeleMKT,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+993,Lead Base Queretaro,Nutrición,1,0,1,0,0,0,1,0,0,0,0,0
+1000,Lead de Odoo - TeleMKT,Nutrición,1,1,0,0,1,0,0,0,0,0,0,0
+1007,Hector Villalpando - CHATBOT,Nutrición,1,0,0,0,0,0,1,0,0,0,0,0
+1011,Moplayeras - Customer succes,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+1012,Lead Evento semana Jalisco,Negocio perdido,0,1,0,0,0,0,0,1,0,0,0,0
+1013,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+1023,Lead evento semana Jalisco,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+1032,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+1047,Lead de Hybrid Cloud - TeleMKT,Nutrición,1,0,0,0,1,0,0,0,0,0,0,0
+1063,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+1083,Lead de Enterprise - TeleMKT,Ganado,0,1,0,0,1,0,0,0,0,0,0,0
+1094,Lead - Talent Land,Nutrición,1,0,0,1,0,0,0,1,0,0,0,0
+1100,Lead de AWS Startups,Nutrición,1,0,0,0,0,1,0,0,0,0,0,0
+1114,Lead Expo Seguridad,Descartado (contacto si interés),0,0,1,0,0,0,1,0,0,0,0,0
+1118,Lead de Google - TeleMKT,Nutrición,1,0,1,0,0,1,0,0,0,0,0,0
+1120,Lead expo seguridad,Descartado (contacto si interés),0,0,1,0,0,0,1,0,0,0,0,0
+1123,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+1125,Lead de AWS Startups - TeleMKT,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+1136,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+1137,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+1140,Lead de Chatbot - TeleMkt,Nutrición,1,1,0,0,0,0,0,0,1,0,0,0
+1150,Lead de AWS Startups - TeleMKT,Nutrición,1,0,0,0,0,0,0,1,0,0,0,0
+1158,Carlos Ramirez de la Torre- Chatbots,Descartado (contacto si interés),0,0,0,0,0,0,0,1,0,0,0,0
+1159,Lead Evento Startup Meetup | Microsoft,Nutrición,1,0,0,1,0,0,1,0,0,0,0,0
+1163,Lead Evento Startup Meetup | google,Nutrición,1,0,1,0,0,0,1,0,0,0,0,0
+1164,Lead Evento Startup Meetup ,Nutrición,1,1,0,0,0,0,1,0,0,0,0,0
+1168,Evento Startup Meetup ,Nutrición,1,1,0,0,0,0,1,0,0,0,0,0
+1173,Lead de Google - TeleMKT,Negocio perdido,0,0,1,0,1,0,0,0,0,0,0,0
+1174,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+1178,Lead Evento Startup Meetup | AWS,Nutrición,1,0,1,0,0,0,1,0,0,0,0,0
+1182,Lead Evento Startup Meetup | AWS,Nutrición,1,0,0,0,0,0,1,0,0,0,0,0
+1183,Leads Evento Startup Meetup | AWS,Nutrición,1,0,0,0,0,0,1,0,0,0,0,0
+1186,Alvaro Hinojosa Escobar - Evento Startup Meetup- AWS,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+1187,Carlos Salazar Gutiérrez - Evento Startup Meetup- aws,Nutrición,1,0,0,0,0,0,0,1,0,0,0,0
+1204,Lead - Talent Land,Ganado,0,0,0,1,0,0,0,1,0,0,0,0
+1205,Lead - Talent Land,Negocio perdido,0,0,0,1,0,0,0,1,0,0,0,0
+1210,Alfonso González Aldana- Evento REDi,Negocio perdido,0,1,0,0,0,0,0,0,0,0,0,1
+1224,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+1227,lead de REDi - Chatbot | Enterprises,Nutrición,1,1,0,0,0,0,1,0,0,0,0,0
+1229,lead de REDi - Chatbot | Enterprises,Negocio perdido,0,1,0,0,0,0,1,0,0,0,0,0
+1230,lead de REDi - Chatbot | Enterprises,Nutrición,1,0,0,0,0,0,1,0,0,0,0,0
+1235,Lead - Talent Land,Nutrición,1,1,0,0,0,0,0,1,0,0,0,0
+1236,Lead - Talent Land,Nutrición,1,0,0,0,1,0,0,0,0,0,0,0
+1239,Lead - Talent Land,Nutrición,1,0,0,0,0,0,0,1,0,0,0,0
+1240,Lead - Talent Land,Nutrición,1,0,0,0,0,0,0,1,0,0,0,0
+1241,Lead - Talent Land,Nutrición,1,0,1,0,1,0,0,0,0,0,0,0
+1242,Lead - Talent Land,Nutrición,1,0,1,0,1,0,0,0,0,0,0,0
+1244,Lead - Talent Land,Negocio perdido,0,0,1,0,1,0,0,0,0,0,0,0
+1246,Lead - Talent Land,Nutrición,1,0,0,0,0,0,0,1,0,0,0,0
+1247,Lead- Evento la Tequila,Nutrición,1,0,0,0,1,0,0,0,0,0,0,0
+1250,Lead de Microsoft - TeleMKT,Ganado,0,0,0,1,0,0,0,0,0,0,1,0
+1251,Lead Chatbots - TeleMKT,Ganado,0,1,0,0,0,0,0,0,0,0,1,0
+1266,Lead - Evento Manzanillo - AWS,Ganado,0,0,0,1,0,0,0,1,0,0,0,0
+1269,Lead - Evento Manzanillo - MSFT,Nutrición,1,0,0,1,0,0,0,1,0,0,0,0
+1270,Lead - Evento Manzanillo - MSFT,Nutrición,1,0,0,1,0,0,0,1,0,0,0,0
+1271,Lead - Evento Manzanillo - MSFT,Negocio perdido,0,0,0,1,0,0,0,1,0,0,0,0
+1272,Lead - Evento Manzanillo - MSFT,Nutrición,1,0,0,1,0,0,0,1,0,0,0,0
+1274,Lead - Evento Manzanillo - GCP,Nutrición,1,0,1,0,1,0,0,0,0,0,0,0
+1275,Lead - Evento Manzanillo - GCP,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+1279,Lead de AWS - TeleMKT,Ganado,0,0,0,0,0,0,0,0,0,0,0,0
+1283,Lead de evento - MSFT,Nutrición,1,0,0,1,0,0,0,1,0,0,0,0
+1284,Lead de evento - GCP,Negocio perdido,0,0,1,0,0,0,0,1,0,0,0,0
+1286,Lead de evento - GCP,Nutrición,1,0,1,0,0,0,0,1,0,0,0,0
+1296,Lead de evento - MSFT,Nutrición,1,0,0,1,0,0,0,0,0,0,1,0
+1299,Lead de evento - AWS,Nutrición,1,0,0,0,0,0,0,0,0,0,1,0
+1325,Lead de evento - AWS,Nutrición,1,0,0,0,0,0,0,0,0,0,1,0
+1329,Lead de Google TeleMkt,Nutrición,1,0,1,0,0,0,0,0,0,0,0,0
+1330,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,1,0,0,0
+1331,Lead Chatbot - TeleMKT,Negocio perdido,0,1,0,0,0,0,1,0,0,0,0,0
+1341,Lead de Chatbots - TeleMKT,Ganado,0,1,0,0,0,1,0,0,0,0,0,0
+1358,Lead de Microsoft - TeleMKT,Negocio perdido,0,0,0,1,0,0,0,0,0,0,0,0
+1444,Lead de SF - TeleMKT,Ganado,0,0,0,1,0,0,0,1,0,0,0,0
+1454,Lead de Google - TeleMKT,Negocio perdido,0,0,1,0,0,0,0,0,0,1,0,0
+1456,Lead de AWS - TeleMKT,Ganado,0,0,0,0,0,0,0,0,0,1,0,0
+1457,Lead de AWS - TeleMKT,Negocio perdido,0,0,0,0,0,0,0,0,0,1,0,0
+1462,Lead de Google - TeleMKT,Negocio perdido,0,0,1,0,0,0,0,0,0,1,0,0
+1497,Lead de Chatbot - TeleMkt,Negocio perdido,0,1,0,0,0,0,0,0,0,0,0,0
+1532,Lead de Cloud,Nutrición,1,0,0,0,0,0,0,0,0,0,0,0
+1533,Lead de Cloud - Chatbot,Negocio perdido,0,1,0,0,0,0,0,0,0,0,0,0
+1537,Lead de Cloud,Ganado,0,0,0,1,0,0,0,1,0,0,0,0
+1538,Lead de Msft,Negocio perdido,0,0,0,1,0,0,0,0,0,0,0,0
+1539,Lead de Msft,Negocio perdido,0,0,0,1,0,0,0,0,0,0,1,0
