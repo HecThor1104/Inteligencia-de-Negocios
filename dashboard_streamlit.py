@@ -10,7 +10,7 @@ except ModuleNotFoundError:
     st.stop()
 
 # Configuración de la página
-st.set_page_config(page_title="Análisis Avanzado de Oportunidades de Venta", layout="wide")
+st.set_page_config(page_title="Dashboard Avanzado de Oportunidades de Venta", layout="wide")
 
 # Cargar los datos
 try:
@@ -29,17 +29,12 @@ etapa_map = {
     "Descartado (contacto si interés)": 0,
     "Negocio perdido": 0
 }
-
-# Crear la columna 'Etapa_binaria' con el nombre correcto
 df['Etapa_binaria'] = df['Etapa_del_negocio'].map(etapa_map)
 
 # Validar la variable objetivo
 if df['Etapa_binaria'].isnull().any() or not set(df['Etapa_binaria'].unique()).issubset({0, 1}):
     st.error("La variable 'Etapa_binaria' contiene valores fuera del intervalo [0, 1]. Revise los datos.")
     st.stop()
-
-# Verificar las columnas del DataFrame
-st.write("Columnas del DataFrame:", df.columns.tolist())
 
 # Listar columnas relevantes para análisis
 unidad_columns = [col for col in df.columns if col.startswith('Unidad_de_negocio_asignada')]
@@ -49,57 +44,53 @@ if not unidad_columns or not fuente_columns:
     st.error("No se encontraron columnas relacionadas con unidades de negocio o fuentes originales en el archivo.")
     st.stop()
 
-# Crear el modelo Probit y Logit
-predictors = unidad_columns + fuente_columns
-X = df[predictors]
-X = sm.add_constant(X)
-y = df['Etapa_binaria']
+# Dashboards Interactivos
+st.title("Dashboards Interactivos de Oportunidades de Venta")
 
-probit_model = sm.Probit(y, X).fit(disp=0)
-logit_model = sm.Logit(y, X).fit(disp=0)
+# Distribución de leads por fuente y etapa
+st.header("Distribución de Leads por Fuente y Etapa")
+fuente_etapa_chart = alt.Chart(df).mark_bar().encode(
+    x=alt.X('Fuente_original:N', title="Fuente Original"),
+    y=alt.Y('count():Q', title="Cantidad de Leads"),
+    color=alt.Color('Etapa_del_negocio:N', title="Etapa del Negocio"),
+    tooltip=['Fuente_original', 'Etapa_del_negocio', 'count()']
+).properties(width=800, height=400)
+st.altair_chart(fuente_etapa_chart, use_container_width=True)
 
-# Resultados del modelo
-st.subheader("Resultados de Modelos Probit y Logit")
-st.write("Modelo Probit:")
-st.text(probit_model.summary())
-st.write("Modelo Logit:")
-st.text(logit_model.summary())
+# Conversión por unidad de negocio
+st.header("Tasa de Conversión por Unidad de Negocio")
+conversion_data = df.groupby(unidad_columns).agg(
+    total_leads=('Etapa_binaria', 'count'),
+    conversion_rate=('Etapa_binaria', 'mean')
+).reset_index()
+conversion_chart = alt.Chart(conversion_data).mark_bar().encode(
+    x=alt.X('conversion_rate:Q', title="Tasa de Conversión (%)", scale=alt.Scale(domain=[0, 1])),
+    y=alt.Y('Unidad_de_negocio_asignada:N', title="Unidad de Negocio"),
+    color=alt.Color('conversion_rate:Q', scale=alt.Scale(scheme='greenblue')),
+    tooltip=['Unidad_de_negocio_asignada', 'conversion_rate', 'total_leads']
+).properties(width=800, height=400)
+st.altair_chart(conversion_chart, use_container_width=True)
 
-# Filtros
-unidad_seleccion = st.multiselect("Selecciona Unidad de Negocio:", options=unidad_columns)
-fuente_seleccion = st.multiselect("Selecciona Fuente Original:", options=fuente_columns)
-
-# Filtrar el DataFrame
-df_filtered = df.copy()
-if unidad_seleccion:
-    df_filtered = df_filtered[df_filtered[unidad_seleccion].sum(axis=1) > 0]
-if fuente_seleccion:
-    df_filtered = df_filtered[df_filtered[fuente_seleccion].sum(axis=1) > 0]
-
-# Visualizaciones avanzadas
-st.subheader("Distribución por Etapas (Categorizadas)")
-etapas_chart = alt.Chart(df_filtered).mark_bar().encode(
-    x=alt.X("Etapa_del_negocio:N", title="Etapas"),
-    y=alt.Y("count():Q", title="Cantidad"),
-    color="Etapa_del_negocio:N"
-).properties(width=600, height=400)
-st.altair_chart(etapas_chart, use_container_width=True)
-
-st.subheader("Probabilidades de Éxito por Fuente")
-probs_fuentes = logit_model.predict(X).groupby(df['Fuente_original_Bsqueda_orgnica']).mean()
-fuente_chart = alt.Chart(probs_fuentes.reset_index()).mark_bar().encode(
-    x=alt.X("Fuente_original_Bsqueda_orgnica:N", title="Fuente Original"),
-    y=alt.Y("probabilidad:Q", title="Probabilidad de Éxito"),
-    color="Fuente_original_Bsqueda_orgnica:N"
-).properties(width=600, height=400)
-st.altair_chart(fuente_chart, use_container_width=True)
+# Comparativa de tasas de éxito por fuente
+st.header("Comparativa de Tasas de Éxito por Fuente")
+success_data = df.groupby(fuente_columns).agg(
+    total_leads=('Etapa_binaria', 'count'),
+    success_rate=('Etapa_binaria', 'mean')
+).reset_index()
+success_chart = alt.Chart(success_data).mark_circle(size=200).encode(
+    x=alt.X('total_leads:Q', title="Total de Leads"),
+    y=alt.Y('success_rate:Q', title="Tasa de Éxito (%)", scale=alt.Scale(domain=[0, 1])),
+    color=alt.Color('Fuente_original:N', title="Fuente Original"),
+    tooltip=['Fuente_original', 'total_leads', 'success_rate']
+).properties(width=800, height=400)
+st.altair_chart(success_chart, use_container_width=True)
 
 # Resumen y conclusiones
 st.subheader("Resumen y Conclusiones")
 st.markdown("""
-- **Probabilidad de éxito (Ganado, Pipe comercial, Transferido a sales)** calculada usando modelos Probit y Logit.
-- Las fuentes y unidades de negocio influyen significativamente en el éxito.
-- Distribuciones y probabilidades por fuente y unidad disponibles en las visualizaciones.
+- **Distribución de leads**: Identifica las fuentes más productivas y las etapas en que se concentran los leads.
+- **Tasa de conversión**: Analiza qué unidades de negocio están logrando mejores conversiones.
+- **Tasa de éxito por fuente**: Compara el desempeño de las distintas fuentes para priorizar esfuerzos de marketing.
 """)
 
 
