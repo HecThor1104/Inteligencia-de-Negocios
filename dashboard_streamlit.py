@@ -1,9 +1,8 @@
-
 import streamlit as st
 import pandas as pd
 import altair as alt
 
-# Configuración de la página (debe estar al inicio)
+# Configuración de la página
 st.set_page_config(page_title="Dashboard de Marketing", layout="wide")
 
 # Cargar los datos
@@ -17,24 +16,31 @@ except Exception as e:
 # Verificar las columnas del DataFrame
 st.write("Columnas del DataFrame:", df.columns.tolist())
 
-# Manejo de errores para columnas faltantes
-if "Unidad_de_negocio_asignada" not in df.columns or "Fuente_original" not in df.columns:
-    st.error("El archivo cargado no contiene las columnas necesarias: 'Unidad_de_negocio_asignada' o 'Fuente_original'.")
+# Listar columnas relevantes para filtros y gráficos
+unidad_columns = [col for col in df.columns if col.startswith('Unidad_de_negocio_asignada')]
+fuente_columns = [col for col in df.columns if col.startswith('Fuente_original')]
+
+if not unidad_columns or not fuente_columns:
+    st.error("No se encontraron columnas relacionadas con unidades de negocio o fuentes originales en el archivo.")
     st.stop()
 
-# Título del dashboard
-st.title("Dashboard Interactivo de Oportunidades de Venta")
+# Combinar nombres de columnas para filtros amigables
+unidad_map = {col: col.replace('Unidad_de_negocio_asignada_', '') for col in unidad_columns}
+fuente_map = {col: col.replace('Fuente_original_', '') for col in fuente_columns}
 
 # Filtros
-unidad_negocio = st.multiselect("Selecciona Unidad de Negocio:", options=df["Unidad_de_negocio_asignada"].unique())
-fuente_original = st.multiselect("Selecciona Fuente Original:", options=df["Fuente_original"].unique())
+unidad_seleccion = st.multiselect("Selecciona Unidad de Negocio:", options=list(unidad_map.values()))
+fuente_seleccion = st.multiselect("Selecciona Fuente Original:", options=list(fuente_map.values()))
 
-# Aplicar filtros
+# Filtrar el DataFrame
 df_filtered = df.copy()
-if unidad_negocio:
-    df_filtered = df_filtered[df_filtered["Unidad_de_negocio_asignada"].isin(unidad_negocio)]
-if fuente_original:
-    df_filtered = df_filtered[df_filtered["Fuente_original"].isin(fuente_original)]
+if unidad_seleccion:
+    selected_unidades = [key for key, val in unidad_map.items() if val in unidad_seleccion]
+    df_filtered = df_filtered[df_filtered[selected_unidades].sum(axis=1) > 0]
+
+if fuente_seleccion:
+    selected_fuentes = [key for key, val in fuente_map.items() if val in fuente_seleccion]
+    df_filtered = df_filtered[df_filtered[selected_fuentes].sum(axis=1) > 0]
 
 # Gráficos
 st.subheader("Distribución por Etapas")
@@ -46,18 +52,17 @@ etapas_chart = alt.Chart(df_filtered).mark_bar().encode(
 st.altair_chart(etapas_chart, use_container_width=True)
 
 st.subheader("Distribución por Fuente Original")
-fuente_chart = alt.Chart(df_filtered).mark_bar().encode(
-    x=alt.X("Fuente_original:N", title="Fuente Original"),
-    y=alt.Y("count():Q", title="Cantidad"),
-    color="Fuente_original:N"
+fuente_chart = alt.Chart(df_filtered).transform_fold(
+    fuente_columns,
+    as_=['Fuente', 'Value']
+).transform_filter(
+    alt.datum.Value > 0
+).mark_bar().encode(
+    x=alt.X("Fuente:N", title="Fuente Original"),
+    y=alt.Y("sum(Value):Q", title="Cantidad"),
+    color="Fuente:N"
 ).properties(width=600, height=400)
 st.altair_chart(fuente_chart, use_container_width=True)
-
-st.subheader("Resultados de Modelos Probit y Logit")
-st.text("Modelo Probit:")
-st.text("""Resultados no disponibles en esta vista.""")
-st.text("Modelo Logit:")
-st.text("""Resultados no disponibles en esta vista.""")
 
 # Resumen y conclusiones
 st.subheader("Resumen y Conclusiones")
@@ -66,3 +71,4 @@ st.markdown("""
 - **Referencias** tienen un impacto negativo en la conversión.
 - Estas observaciones pueden ayudar a priorizar recursos en canales más efectivos.
 """)
+
