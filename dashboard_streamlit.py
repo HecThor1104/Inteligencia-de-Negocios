@@ -2,14 +2,14 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 
+# Configuración de la página (debe estar al inicio)
+st.set_page_config(page_title="Dashboard de Marketing", layout="wide")
+
 # Cargar los datos
 df = pd.read_csv('marketing_data_clean.csv')  # Asegúrate de exportar el DataFrame limpio a un archivo CSV.
 
 # Verificar las columnas
 st.write("Columnas del DataFrame:", df.columns.tolist())
-
-# Configuración de la página
-st.set_page_config(page_title="Dashboard de Marketing", layout="wide")
 
 # Título del dashboard
 st.title("Dashboard Interactivo de Oportunidades de Venta")
@@ -55,4 +55,3 @@ st.markdown("""
 - **Referencias** tienen un impacto negativo en la conversión.
 - Estas observaciones pueden ayudar a priorizar recursos en canales más efectivos.
 """)
-
