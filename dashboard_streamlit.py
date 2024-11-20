@@ -1,8 +1,13 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-import statsmodels.api as sm
 import numpy as np
+
+try:
+    import statsmodels.api as sm
+except ModuleNotFoundError:
+    st.error("La librería 'statsmodels' no está instalada. Por favor, instala las dependencias listadas en 'requirements.txt'.")
+    st.stop()
 
 # Configuración de la página
 st.set_page_config(page_title="Análisis Avanzado de Oportunidades de Venta", layout="wide")
@@ -25,6 +30,11 @@ etapa_map = {
     "Localizando": 0
 }
 df['Etapa_binaria'] = df['Etapa_del_negocio'].map(etapa_map)
+
+# Validar la variable objetivo
+if df['Etapa_binaria'].isnull().any() or not set(df['Etapa_binaria'].unique()).issubset({0, 1}):
+    st.error("La variable 'Etapa_binaria' contiene valores fuera del intervalo [0, 1]. Revise los datos.")
+    st.stop()
 
 # Verificar las columnas del DataFrame
 st.write("Columnas del DataFrame:", df.columns.tolist())
